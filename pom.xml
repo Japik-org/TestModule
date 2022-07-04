@@ -6,21 +6,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>TestModule</artifactId>
-    <groupId>com.pro100kryto.server.modules</groupId>
-    <version>0.1</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.pro100kryto.server</groupId>
-            <artifactId>Server</artifactId>
-            <version>[0.1, 0.2)</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+    <groupId>com.japik.modules</groupId>
+    <version>0.2</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.japik</groupId>
+            <artifactId>Japik</artifactId>
+            <version>[0.6.0, 0.7.0)</version>
+        </dependency>
+    </dependencies>
 
 </project>

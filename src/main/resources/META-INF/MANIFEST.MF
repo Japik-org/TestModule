@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+
+Name: Module-Impl
+Shared-Subtype: Test
+Subtype: Test
+Version: 0.2
+Base-Package: com.japik
+
+Name: Module-Shared
+Subtype: Test
+Version: 0.2
+Base-Package: com.japik
